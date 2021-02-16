@@ -7,9 +7,10 @@ main = Tk()
 
 global btn, board
 
-#creating an empty tic tac tow board
+#creating an empty tic tac toe board
 board=[['   ','   ','   '],['   ','   ','   '],['   ','   ','   ']]
 btn = []
+
 turn='A'
 
 #creating the label to inform the players about their turns
@@ -65,7 +66,6 @@ def change_player():
 #updating the choice of the player in the tic tac toe board    
 def update(i,j):
     global turn
-    #marking the user's mark and disabling the button
     if(board[i][j]=='   '):
         if(turn=='A'):
             board[i][j] = 'X'
