@@ -1,2 +1,4 @@
 # Tic-Tac-Toe
-A simple program to play Tic Tac Toe with your friend!
+This is a simple program to play Tic Tac Toe! Only two players are required to play this game. 
+I built this using Python programming language.
+
